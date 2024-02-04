@@ -1,0 +1,6 @@
+# Start PalWorld Server
+50 5 * * * /home/orchard/Documents/pal-world-server/start.sh >> /tmp/cron.log 2>&1
+# Stop PalWorld Server
+40 5 * * * /home/orchard/Documents/pal-world-server/stop.sh >> /tmp/cron.log 2>&1
+# Backup PalWorld Server
+45 5 * * * /home/orchard/Documents/pal-world-server/back_up_pal_world.sh >> /tmp/cron.log 2>&1
