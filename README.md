@@ -9,3 +9,6 @@ Add to the bottom of sudo visudo
 `orchard ALL=(steam) NOPASSWD: /usr/bin/pkill -u steam`
 
 Add to crontab based off file.
+
+
+To make DeathPenalty=None make sure you chmod 444 the PalWorldSettings.ini file
