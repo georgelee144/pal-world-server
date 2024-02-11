@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Check if Palworld is running for user "steam"
-if pgrep -u steam -x Palworld > /dev/null
+if pgrep -u steam -x PalServer > /dev/null
 then
     echo "Palworld is running as of $(date +%T)."
 else
