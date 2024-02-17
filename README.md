@@ -12,3 +12,13 @@ Add to crontab based off file.
 
 
 To make DeathPenalty=None make sure you chmod 444 the PalWorldSettings.ini file
+
+
+Create /etc/systemd/sleep.conf.d/nosuspend.conf as
+```
+[Sleep]
+AllowSuspend=no
+AllowHibernation=no
+AllowSuspendThenHibernate=no
+AllowHybridSleep=no
+```
