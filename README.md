@@ -1,6 +1,7 @@
 # Server Setup/Backup
 
 Install using https://pimylifeup.com/ubuntu-palworld-dedicated-server/
+Open 8211 port in router settings
 
 Add to the bottom of sudo visudo
 

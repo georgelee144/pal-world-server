@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Define source directories and base destination directory
-PAL_WORLD_SETTINGS="/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini"
-SAVED_GAME_DIR="/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/SaveGames/0/"
-PAL_WORLD_BACKUP_DIR="/home/orchard/palworld_backup"
+PAL_WORLD_SETTINGS="/home/playground/Steam/steamapps/common/PalServer/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini"
+SAVED_GAME_DIR="/home/playground/Steam/steamapps/common/PalServer/Pal/Saved/SaveGames/0/"
+PAL_WORLD_BACKUP_DIR="/home/playground/palworld_backup"
 
 # Create a timestamp
 TIMESTAMP=$(date +"%Y%m%d")

@@ -1,8 +1,8 @@
 # Start PalWorld Server
-50 7 * * 2,5 /home/orchard/Documents/pal-world-server/start.sh >> /tmp/cron.log 2>&1
+50 7 * * 2,5 /home/george/pal-world-server/start.sh >> /tmp/cron.log 2>&1
 # Stop PalWorld Server
-40 7 * * 2,5 /home/orchard/Documents/pal-world-server/stop.sh >> /tmp/cron.log 2>&1
+40 7 * * 2,5 /home/george/pal-world-server/stop.sh >> /tmp/cron.log 2>&1
 # Backup PalWorld Server
-0 */3 * * * /home/orchard/Documents/pal-world-server/back_up_pal_world.sh >> /tmp/cron.log 2>&1
+0 */3 * * * /home/george/pal-world-server/back_up_pal_world.sh >> /tmp/cron.log 2>&1
 # Recover PalWorld Server
-* * * * * /home/orchard/Documents/pal-world-server/safeguard.sh >> /tmp/cron.log 2>&1
+* * * * * /home/george/pal-world-server/safeguard.sh >> /tmp/cron.log 2>&1

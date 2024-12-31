@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo -u steam pkill -u steam
+sudo -u playground pkill -u playground
 echo "Closed PalWorld Server"
